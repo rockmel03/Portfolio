@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes typewriter {
+  from {
+    opacity: 0;
+  }
+  to {
+    /* background: red; */
+    opacity: 1;
+  }
+}
