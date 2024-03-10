@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Typing = ({ data = ["Developer", "Designer", "Editor"] }) => {
   const [heading, setHeading] = useState("");
 
-  const startType = () => {};
+  // const startType = () => {};
 
   useEffect(() => {
     let clutter = "";

@@ -4,25 +4,25 @@ import SocialLinks from "./Templates/SocialLinks";
 
 const Header = () => {
   return (
-    <header className="relative max-w-screen-xl mx-auto w-full h-screen flex">
+    <header className="relative max-w-screen-xl mx-auto w-full h-[calc(100vh-12vh)] flex border-b-[1px] border-b-zinc-700">
       <div className="flex-1 flex items-center justify-center   ">
         <div
-          style={{
-            boxShadow: `0 0 8px #dadada, inset 0 0 8px #dadada,
-                        0 0 12px #dadada, inset 0 0 15px #dadada,
-                        0 0 16px #dadada, inset 0 0 20px #dadada,
-                        0 0 20px #dadada, inset 0 0 25px #dadada`,
-            border: "10px solid #fcfcfd",
-            backgroundPosition: "top",
-            backgroundSize: "cover",
-            backdropFilter: "grayscale(1)",
-          }}
-          className="w-[30rem] h-[30rem] rounded-full overflow-hidden"
+          // style={{
+          //   boxShadow: `0 0 8px #dadada, inset 0 0 8px #dadada,
+          //               0 0 12px #dadada, inset 0 0 15px #dadada,
+          //               0 0 16px #dadada, inset 0 0 20px #dadada,
+          //               0 0 20px #dadada, inset 0 0 25px #dadada`,
+          // border: "10px solid #fcfcfd",
+          //   backgroundPosition: "top",
+          //   backgroundSize: "cover",
+          //   backdropFilter: "grayscale(1)",
+          // }}
+          className="w-[30rem] h-[30rem] rounded-full overflow-hidden shadow shadow-white"
         >
           <img
-            src="/my-photo.png"
+            src="/dpAi.png"
             alt=""
-            className="w-full h-full object-contain scale-x-[-1] grayscale-[80%]"
+            className="w-full h-full object-contain scale-x-[-1]"
           />
         </div>
         {/* <SocialLinks /> */}
